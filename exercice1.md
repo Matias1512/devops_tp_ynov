@@ -1,6 +1,8 @@
 # devops_tp_ynov
 Entreprise : SopraSteria
-Silot : Je ne crois pas qu'il y en a
+
+Silot : Je ne sais pas
+
 Pratique : méthode agile
 
 ```mermaid
@@ -16,7 +18,11 @@ graph TD;
     BDD-->MongoDB
 ```
 
-Processus de build : npm
-Processus de déploiement :
-Processus de release :
-Moyen de teste : 
+Processus de build : Je ne sais pas
+
+Processus de déploiement : Je ne sais pas
+
+Processus de release : Je ne sais pas
+
+Moyen de teste : Mockito
+
