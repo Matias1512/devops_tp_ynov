@@ -4,8 +4,15 @@ Pratique : méthode agile
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    ASCS-->ASCS front
+    ASCS-->ASCD back
+    ASCS front-->React
+    ASCS front-->VScode
+    ASCD back-->TypeScript
+    ASCD back-->Intellij
 ```
+
+Processus de build : npm
+Processus de déploiement :
+Processus de release :
+Moyen de teste : 
