@@ -22,3 +22,6 @@ docker rm devtest
 docker run --name devtest -d -p 4300:80 my-apache2
 docker cp ./html/index.html devtest:/usr/local/apache2/htdocs/
 
+4.a/Voir Dockerfile
+
+4.b/
