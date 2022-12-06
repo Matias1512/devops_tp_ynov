@@ -13,3 +13,12 @@ docker images
 
 3.d/
 docker run --name devtest -v ${pwd}/html:/usr/local/apache2/htdocs/ -d -p 4300:80 my-apache2
+
+3.e/
+docker stop devtest
+docker rm devtest
+
+3.f/
+docker run --name devtest -d -p 4300:80 my-apache2
+docker cp ./html/index.html devtest:/usr/local/apache2/htdocs/
+
