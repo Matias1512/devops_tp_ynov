@@ -27,5 +27,6 @@ docker cp ./html/index.html devtest:/usr/local/apache2/htdocs/
 4.b/docker build -t my-apache2 .
     docker run -dit --name my-running-app -p 8080:80 my-apache2
 
-4.c/
+4.c/La différence est que avec le Dockerfile on peut directement définir le fichier qui va être ouvert avec l'image
 
+5.a/
