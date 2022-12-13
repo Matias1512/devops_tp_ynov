@@ -29,4 +29,6 @@ docker cp ./html/index.html devtest:/usr/local/apache2/htdocs/
 
 4.c/La différence est que avec le Dockerfile on peut directement définir le fichier qui va être ouvert avec l'image
 
-5.a/
+5.a/docker pull mysql
+    docker pull phpmyadmin
+
